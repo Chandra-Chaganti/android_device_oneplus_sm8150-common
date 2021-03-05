@@ -398,10 +398,14 @@ PRODUCT_PACKAGES += \
     libqti_vndfwk_detect \
     libqti_vndfwk_detect.vendor
 
+# Platform
+PRODUCT_USES_QCOM_HARDWARE := true
+TARGET_BOARD_PLATFORM := msmnile
+
 # QTI Components
 TARGET_COMMON_QTI_COMPONENTS := \
     wfd
-    
+
 # RIL
 PRODUCT_PACKAGES += \
     android.hardware.radio@1.2 \
@@ -516,3 +520,5 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/wifi/p2p_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/p2p_supplicant_overlay.conf \
     $(LOCAL_PATH)/wifi/wpa_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant_overlay.conf \
     $(LOCAL_PATH)/wifi/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/WCNSS_qcom_cfg.ini
+
+-include device/qcom/common/common.mk
