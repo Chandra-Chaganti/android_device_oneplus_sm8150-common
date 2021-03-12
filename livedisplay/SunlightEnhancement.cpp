@@ -28,7 +28,7 @@ namespace livedisplay {
 namespace V2_0 {
 namespace implementation {
 
-static constexpr const char* kHbmPath = "/sys/class/drm/card0-DSI-1/hbm";
+static constexpr const char* kHbmPath = "/sys/devices/platform/soc/ae00000.qcom,mdss_mdp/drm/card0/card0-DSI-1/hbm";
 
 bool SunlightEnhancement::isSupported() {
     return true;
