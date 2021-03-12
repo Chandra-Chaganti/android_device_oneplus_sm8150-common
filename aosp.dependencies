@@ -26,5 +26,11 @@
     "repository"   : "device_qcom_common",
     "target_path"  : "device/qcom/common",
     "branch"       : "eleven"
+  },
+  {
+    "repository"   : "Chandra-Chaganti/packages_apps_googlecamera",
+    "target_path"  : "packages/apps/googlecamera",
+    "branch"       : "eleven",
+    "remote"       : "gitlab"
   }
 ]
