@@ -28,4 +28,7 @@
 
     <!-- Allow devices to hide ringer button above volume slider -->
     <bool name="config_hideRingerButton">true</bool>
+
+    <!-- This will sync FOD brightness with screen brightness. -->
+    <bool name="config_fingerprintDimmingScreen">true</bool>
 </resources>
