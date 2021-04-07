@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 # Get non-open-source specific aspects
-$(call inherit-product-if-exists, vendor/oneplus/sm8150-common/sm8150-common-vendor.mk)
+$(call inherit-product, vendor/oneplus/sm8150-common/sm8150-common-vendor.mk)
 
 # Additional native libraries
 PRODUCT_COPY_FILES += \
