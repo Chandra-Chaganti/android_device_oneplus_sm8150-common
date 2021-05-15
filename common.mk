@@ -384,7 +384,7 @@ PRODUCT_PACKAGES += \
 
 # Vibrator
 PRODUCT_PACKAGES += \
-    vendor.qti.hardware.vibrator.service.oneplus_msmnile
+    vendor.qti.hardware.vibrator.service
 
 # Seccomp policy
 PRODUCT_COPY_FILES += \
