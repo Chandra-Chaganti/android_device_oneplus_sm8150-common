@@ -6,15 +6,21 @@
     "remote"      : "pixel-devices"
   },
   {
-    "repository"  : "vendor_oneplus_sm8150-common",
-    "target_path" : "vendor/oneplus/sm8150-common",
-    "branch"      : "eleven-plus",
-    "remote"      : "pixel-devices-blobs"
+    "repository"  : "crdroidandroid/proprietary_vendor_oneplus",
+    "target_path" : "vendor/oneplus",
+    "branch"      : "11.0",
+    "remote"      : "github"
   },
   {
-    "repository"  : "android_device_oneplus_common",
+    "repository"  : "crdroidandroid/android_device_oneplus_common",
     "target_path" : "device/oneplus/common",
-    "branch"      : "lineage-18.1",
-    "remote"      : "lineage"
+    "branch"      : "11.0",
+    "remote"      : "github"
+  },
+  {
+    "repository"  : "Hikari-no-Tenshi/android_vendor_oneplus_apps",
+    "target_path" : "vendor/oneplus/apps",
+    "branch"      : "11.0",
+    "remote"      : "gitlab"
   }
 ]
