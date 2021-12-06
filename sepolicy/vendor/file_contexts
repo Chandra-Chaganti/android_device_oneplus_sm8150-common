@@ -50,6 +50,7 @@
 /mnt/vendor/persist/camera(/.*)?                     u:object_r:persist_camera_file:s0
 /mnt/vendor/persist/dual_camera_calibration(/.*)?    u:object_r:persist_camera_file:s0
 /mnt/vendor/persist/engineermode(/.*)?               u:object_r:persist_engineer_file:s0
+/mnt/vendor/persist/wlan_mac.bin                     u:object_r:persist_wlan_file:s0
 
 # Socket files
 /dev/socket/vl53l1_daemon    u:object_r:vl53l1_socket:s0
@@ -61,6 +62,7 @@
 /sys/devices/platform/vendor/vendor:motor_pl(/.*)?                 u:object_r:sysfs_motor:s0
 /sys/elliptic/engine/calibration_v2                                u:object_r:vendor_sysfs_audio:s0
 /sys/firmware/devicetree/base/model                                u:object_r:sysfs_dtb_model:s0
+/sys/module/fsc(/.*)?                                              u:object_r:sysfs_fsc:s0
 /sys/module/stmvl53l1(/.*)?                                        u:object_r:sysfs_vl53l1:s0
 /sys/project_info(/.*)?                                            u:object_r:sysfs_project_info:s0
 
